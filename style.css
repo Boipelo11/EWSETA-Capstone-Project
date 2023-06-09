@@ -204,6 +204,7 @@ body {
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
+  
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
@@ -838,6 +839,10 @@ progress {
 .row-cols-6 > * {
   flex: 0 0 auto;
   width: 16.6666666667%;
+}
+
+.row-g-5 {
+  padding-bottom: 20px;
 }
 
 .col-auto {
@@ -1902,6 +1907,10 @@ progress {
   .g-xxl-6,
   .gy-xxl-6 {
     --bs-gutter-y: 5rem;
+  }
+
+  .news h2{
+    padding-top: 15px;
   }
 }
 .table {
